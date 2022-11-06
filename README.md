@@ -5,6 +5,7 @@ Bash script to start radio on a raspberry pi with a button.
 
 - Copy radio.service file in the `/etc/systemd/user/` directory
 - systemctl --user start radio.service
+- Copy radio.sh to /usr/bin/
 
 ### Enable at boot
 

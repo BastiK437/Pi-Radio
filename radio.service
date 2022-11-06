@@ -6,7 +6,7 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-ExecStart=/home/ubuntu/projects/Pi-Radio/radio.sh
+ExecStart=/usr/bin/radio.sh
 Restart=always
 RestartSec=12
 
